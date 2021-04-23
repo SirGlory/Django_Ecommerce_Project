@@ -77,6 +77,11 @@ WSGI_APPLICATION = 'greatkart.wsgi.application'
 
 AUTH_USER_MODEL = 'accounts.Account'
 
+# #Authentication backends
+# AUTHENTICATION_BACKENDS = (
+#         'django.contrib.auth.backends.ModelBackend',
+#     )
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -141,5 +146,12 @@ MESSAGE_TAGS = {
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# EMAIL - SMTP configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "mememe@gmail.com"  # <--- input own email address here  ******
+EMAIL_HOST_PASSWORD = 'mypassword'    # <--- input own email pasword here  ******
+EMAIL_USE_TLS = True
