@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -152,6 +153,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # EMAIL - SMTP configuration
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "mememe@gmail.com"  # <--- input own email address here  ******
-EMAIL_HOST_PASSWORD = 'mypassword'    # <--- input own email pasword here  ******
+EMAIL_HOST_USER = "glorypoint618@gmail.com"  # <--- input own email address here  ******
+EMAIL_HOST_PASSWORD = 'asrxqwpildjebjpq'    # <--- input own email pasword here  ******
 EMAIL_USE_TLS = True
