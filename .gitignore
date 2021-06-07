@@ -118,7 +118,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .env/
 .venv/
 env/
@@ -160,3 +159,7 @@ Thumbs.db
 
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
